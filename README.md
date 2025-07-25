@@ -13,7 +13,7 @@
 * **사용자는 관심 있는 프로젝트에 펀딩 참여**를 합니다.
 * **플랫폼은 펀딩, 결제, 보상, 쿠폰 등 전반적인 흐름을 지원**합니다.
 
----
+
 ---
 ⚙️ 사용 기술 스택
 #### Backend
@@ -135,9 +135,18 @@ Swagger (OpenAPI 3.0) 적용
 각 서비스에서 /swagger-ui/index.html로 접근 가능
 
 ### 🔗 프로젝트 링크
+#### 📁 GitHub
 
-GitHub: https://github.com/parker0509/ggumdam-backend
-Notion: 요청 시 제공 (기획 문서, 일정 포함)
+백엔드: [ggumdam-back](https://github.com/parker0509/ggumdam-backend)
+프론트엔드: [ggumdam-front](https://github.com/parker0509/ggumdam-front/tree/main)
+
+
+### 🎯 프로젝트 결과 및 회고
+이번 프로젝트를 통해 **MSA 구조** 에서의 실시간 비동기 처리, Kafka 이벤트 흐름 설계, 그리고 **로그 수집 시스템(ELK) 구성**까지 경험할 수 있었습니다. 
+특히 회원가입 후 쿠폰 자동 발급이라는 작은 요구사항을 어떻게 확장 가능한 구조로 만들 수 있을지를 고민하면서,
+동기/비동기 처리의 차이와 서비스 분리의 중요성을 실감했습니다.
+또한 프론트와 백엔드를 함께 설계하며 데이터 흐름, JWT 보안 처리, UX 요소까지 고려하는 과정에서 협업형 사고와 실무 감각을 익힐 수 있었고, 실제 사용자 관점의 시나리오 설계에도 많은 인사이트를 얻었습니다.
+
 
 ### 📧 Contact
 Email: coldwatergk@gmail.com
