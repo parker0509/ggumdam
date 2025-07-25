@@ -53,9 +53,9 @@ graph TD
   B --> G[Order Service (8010)]
   B --> H[Payment Service (8015)]
   D --> |Kafka| E
-🧩 Git Repository 구조
-Bash
+```
 
+🧩 Git Repository 구조
 ggumdam-backend/
 ├── gateway-service/         # API Gateway
 ├── eureka-service/          # 서비스 디스커버리
@@ -69,51 +69,58 @@ ggumdam-backend/
 ├── elk/                     # ELK 스택 구성
 ├── docker-compose.yml       # 전체 서비스 도커 통합
 └── README.md
+
 🌟 주요 기능 및 기술
+
 🔐 인증 및 권한 관리
-Spring Security + JWT 기반 사용자 인증을 구현했습니다.
 
-OAuth2.0 소셜 로그인 (카카오, 구글, 네이버)을 연동했습니다.
+Spring Security + JWT 기반 사용자 인증
 
-Redis를 활용하여 Refresh Token을 저장하고 HttpOnly 쿠키를 사용하여 보안을 강화했습니다.
+OAuth2.0 소셜 로그인 (카카오, 구글, 네이버)
+
+Redis로 Refresh Token 저장, HttpOnly 쿠키 사용
 
 📦 펀딩 프로젝트
-프로젝트 등록/조회/수정 기능을 구현했습니다.
 
-카테고리 및 검색 조건 필터링 기능을 제공합니다.
+프로젝트 등록/조회/수정
 
-상세 페이지 내 찜하기/공유하기 기능을 구현했습니다.
+카테고리/검색 조건 필터링
+
+상세 페이지 찜하기/공유하기 기능 구현
 
 💳 결제 및 주문
-Iamport API 연동을 통해 간편 결제 기능을 구현했습니다.
 
-사용자 펀딩 참여 시 주문 내역 저장 로직을 구성했습니다.
+Iamport API 연동 (간편 결제 기능)
+
+사용자 펀딩 참여 → 주문 내역 저장
 
 📨 Kafka 이벤트 기반 비동기 처리
-Auth Service와 User Service 간 Kafka 메시지 전파를 구현했습니다.
 
-회원가입 이벤트 발생 시 자동 쿠폰 발급 로직을 구성하여 비동기 처리를 적용했습니다.
+Auth → User 서비스 간 Kafka 메시지 전파
 
-Redis Queue 및 Kafka Consumer/Producer를 기반으로 처리 효율성을 높였습니다.
+회원가입 이벤트 → 자동 쿠폰 발급 로직 구성
+
+Redis Queue 및 Kafka Consumer/Producer 기반
 
 📈 ELK 로그 모니터링
-logback-spring.xml에서 JSON 포맷 로그 출력을 설정했습니다.
 
-Filebeat → Logstash → Elasticsearch로 로그를 전송하여 중앙 집중식 로그 관리를 구축했습니다.
+logback-spring.xml에서 JSON 포맷 로그 출력
 
-Kibana를 통해 실시간 로그 시각화 대시보드를 구현하여 시스템 상태를 효율적으로 모니터링합니다.
+Filebeat → Logstash → Elasticsearch 전송
+
+Kibana를 통해 실시간 로그 시각화 대시보드 구현
 
 🧪 API 문서화
-**Swagger (OpenAPI 3.0)**를 적용하여 API 문서를 자동 생성했습니다.
 
-각 서비스에서 /swagger-ui/index.html로 접근하여 상세 API 문서를 확인할 수 있습니다.
+Swagger (OpenAPI 3.0) 적용
+
+각 서비스에서 /swagger-ui/index.html로 접근 가능
 
 🔗 프로젝트 링크
-GitHub: https://github.com/parker0509/ggumdam-backend
 
+GitHub: https://github.com/parker0509/ggumdam-backend
 Notion: 요청 시 제공 (기획 문서, 일정 포함)
 
 📧 Contact
 Email: coldwatergk@gmail.com
-
 GitHub: https://github.com/parker0509
