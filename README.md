@@ -41,7 +41,7 @@
 | `8010` | `Order Service`     | 펀딩 주문, 예약 처리 | `3309` (order-db) |
 | `8015` | `Payment Service`   | 결제 연동 (Iamport) | `3400` (payment-db) |
 
-### 🔄 서비스 통신 구조 (Mermaid)
+### 🔄 서비스 통신 구조 
 
 ```
 graph TD
@@ -56,6 +56,7 @@ graph TD
 ```
 
 🧩 Git Repository 구조
+```
 ggumdam-backend/
 ├── gateway-service/         # API Gateway
 ├── eureka-service/          # 서비스 디스커버리
@@ -69,7 +70,7 @@ ggumdam-backend/
 ├── elk/                     # ELK 스택 구성
 ├── docker-compose.yml       # 전체 서비스 도커 통합
 └── README.md
-
+```
 🌟 주요 기능 및 기술
 
 🔐 인증 및 권한 관리
