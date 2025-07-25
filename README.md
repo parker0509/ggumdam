@@ -14,7 +14,24 @@
 * **플랫폼은 펀딩, 결제, 보상, 쿠폰 등 전반적인 흐름을 지원**합니다.
 
 ---
+---
+⚙️ 사용 기술 스택
+#### Backend
+* Java 17, Spring Boot 3
+* Spring Security (OAuth2.0 + 자체 회원가입)
+* Spring Data JPA + MySQL
+* Redis, Kafka (이벤트 기반 아키텍처)
+* Elasticsearch (검색 기능)
+* Docker + Spring Cloud Gateway (MSA)
+* Logback + ELK Stack + Filebeat (로그 수집/분석)
 
+#### Frontend
+* React.js (CRA)
+* Axios + Interceptor (JWT 관리)
+* React-Router, React Hooks
+* Styled CSS + Custom Component Design
+
+---
 ## 🛠️ Microservices Architecture
 
 | 계층                | 기술 스택                                                      |
