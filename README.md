@@ -71,9 +71,9 @@ ggumdam-backend/
 ├── docker-compose.yml       # 전체 서비스 도커 통합
 └── README.md
 ```
-### 🌟 주요 기능 및 기술
+## 🌟 주요 기능 및 기술
 
-🔐 인증 및 권한 관리
+### 🔐 인증 및 권한 관리
 
 Spring Security + JWT 기반 사용자 인증
 
