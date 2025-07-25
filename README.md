@@ -43,7 +43,7 @@
 
 ### 🔄 서비스 통신 구조 (Mermaid)
 
-```mermaid
+```
 graph TD
   A[React (3000)] --> B[API Gateway (9000)]
   B --> C[Eureka (10000)]
