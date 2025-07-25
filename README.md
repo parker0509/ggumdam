@@ -71,7 +71,7 @@ ggumdam-backend/
 ├── docker-compose.yml       # 전체 서비스 도커 통합
 └── README.md
 ```
-🌟 주요 기능 및 기술
+### 🌟 주요 기능 및 기술
 
 🔐 인증 및 권한 관리
 
@@ -81,7 +81,7 @@ OAuth2.0 소셜 로그인 (카카오, 구글, 네이버)
 
 Redis로 Refresh Token 저장, HttpOnly 쿠키 사용
 
-📦 펀딩 프로젝트
+### 📦 펀딩 프로젝트
 
 프로젝트 등록/조회/수정
 
@@ -89,13 +89,13 @@ Redis로 Refresh Token 저장, HttpOnly 쿠키 사용
 
 상세 페이지 찜하기/공유하기 기능 구현
 
-💳 결제 및 주문
+### 💳 결제 및 주문
 
 Iamport API 연동 (간편 결제 기능)
 
 사용자 펀딩 참여 → 주문 내역 저장
 
-📨 Kafka 이벤트 기반 비동기 처리
+### 📨 Kafka 이벤트 기반 비동기 처리
 
 Auth → User 서비스 간 Kafka 메시지 전파
 
@@ -103,7 +103,7 @@ Auth → User 서비스 간 Kafka 메시지 전파
 
 Redis Queue 및 Kafka Consumer/Producer 기반
 
-📈 ELK 로그 모니터링
+### 📈 ELK 로그 모니터링
 
 logback-spring.xml에서 JSON 포맷 로그 출력
 
@@ -111,17 +111,17 @@ Filebeat → Logstash → Elasticsearch 전송
 
 Kibana를 통해 실시간 로그 시각화 대시보드 구현
 
-🧪 API 문서화
+### 🧪 API 문서화
 
 Swagger (OpenAPI 3.0) 적용
 
 각 서비스에서 /swagger-ui/index.html로 접근 가능
 
-🔗 프로젝트 링크
+### 🔗 프로젝트 링크
 
 GitHub: https://github.com/parker0509/ggumdam-backend
 Notion: 요청 시 제공 (기획 문서, 일정 포함)
 
-📧 Contact
+### 📧 Contact
 Email: coldwatergk@gmail.com
 GitHub: https://github.com/parker0509
